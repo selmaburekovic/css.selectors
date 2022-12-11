@@ -1,0 +1,26 @@
+a[href*="google"]{
+    color: green;
+}
+
+a[href*="link-group"]{
+    color: red;
+}
+
+ div[id="second-div"] p:nth-child(odd){
+    color: red;
+
+   }
+
+ div[id="second-div"] p:nth-child(even){
+    color: blue;
+   }
+
+div[id*="first-div"] > p::after{
+    content: "-NEW";
+    color: yellow;
+}
+body > p:nth-last-child(1):hover{
+    font-style: italic;
+    color: blueviolet;
+}
+   
